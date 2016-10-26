@@ -41,7 +41,7 @@ function cookieSession(options) {
   var opts = options || {}
 
   // cookie name
-  var name = opts.name || 'session'
+  var name = opts.name || 'express:sess'
 
   // secrets
   var keys = opts.keys;
